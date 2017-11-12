@@ -41,11 +41,11 @@ public class PrincipalControl implements Initializable {
 		GridPane gridPane = new GridPane();
 		for(int coluna=0; coluna <qtdeColunas; coluna++) {
 			Button label = new Button("ADFASDF");
-			gridPane.setConstraints(label, 1,1, 1, 1, HPos.CENTER, VPos.CENTER);
-//			anchorPane.getChildren().add(label);
+			gridPane.setConstraints(label, coluna,1, 1, 1, HPos.CENTER, VPos.CENTER);
+			anchorPane.getChildren().add(label);
 		}
 
-//	anchorPane.getChildren().add(gridPane);
+	anchorPane.getChildren().add(gridPane);
 	}
 
 }
