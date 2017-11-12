@@ -25,7 +25,7 @@ public class PrincipalControl implements Initializable {
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-//		anchorPane.getChildren().add(new Label("ASDASD"));
+		anchorPane.getChildren().add(new Label("ASDASD"));
 		iniciaJogo();
 	}
 	
@@ -37,7 +37,7 @@ public class PrincipalControl implements Initializable {
 //		percentilComplexidade = Integer.valueOf(txPercentilComplexidade.getText());
 		
 	
-		
+		qtdeColunas = 2;
 		GridPane gridPane = new GridPane();
 		for(int coluna=0; coluna <qtdeColunas; coluna++) {
 			Button label = new Button("ADFASDF");
